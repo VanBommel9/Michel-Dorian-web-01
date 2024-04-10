@@ -1,0 +1,37 @@
+{
+  "name": "malicka",
+  "version": "1.0.0",
+  "description": "un jeu de memoire basé sur les memes",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack build --mode=production --no-devtool",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.master3.takima.io/mhoumgbombakop/web-o1"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.30.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
